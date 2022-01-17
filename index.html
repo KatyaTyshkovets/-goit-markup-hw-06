@@ -395,7 +395,17 @@
             </ul>
         </div>
     </div>
+<form class="footer-form">
+    <div class="spam-form">
+    <label for="spam">Подпишитесь на рассылку</label>
+    <input type="email" name="spam" id="spam" placeholder="E-mail">
 
+    <button type="submit">Подписаться <svg class="send-icon" width="24" height="24">
+        <use href="./images/icons.svg#icon-icon-send"></use>
+    </svg>
+    </button>
+   </div>
+</form>
     </footer>
     <div data-modal class="backdrop is-hidden">
         <div class="modal">
@@ -404,6 +414,41 @@
                 <use href="./images/icons.svg#icon-Vector"></use>
             </svg>
             </button>
+            <form class="form">
+               
+                <div class="modal-form">
+                    <b class="modal-text">Оставьте свои данные, мы вам перезвоним</b>
+                <label for="name">Имя</label>
+                <input type="text" name="name" id="name">
+                </div>
+
+                <div class="modal-form">
+                <label for="tel">Телефон</label>
+                <input type="tel" name="tel" id="tel">
+                </div>
+
+                <div class="modal-form">
+                <label for="mail">Почта</label>
+                <input type="email" name="mail" id="mail">
+                </div>
+
+                <div class="modal-form">
+                <label for="coment">Комментарий</label>
+                <textarea class="coment-form" name="coment" id="coment" rows="10" placeholder="Введите текст"></textarea>
+                </div>
+                
+                <div class="modal-form">
+                <input type="checkbox" name="top" id="top">
+                <label for="top">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+                </div>
+
+
+                <button type="submit">Отправить</button>
+                
+
+            </form>
+
+
         </div>
 
     </div>
