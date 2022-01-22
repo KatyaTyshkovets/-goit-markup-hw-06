@@ -541,6 +541,94 @@ body {
   border-radius: 50%;
 }
 
+.send-form {
+  display: block;
+  width: 200px;
+  height: 50px;
+  background-color: var(--btn-hov-foc-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: transparent;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+
+  padding: 10px 55px;
+  margin-right: auto;
+  margin-left: auto;
+
+  cursor: pointer;
+
+  transition: background-color 250 ms --timing-fuction;
+}
+.send-form:focus,
+.send-form:hover {
+  background-color: var(--btn-hover);
+}
+.footer-form label {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--primary-white-color);
+}
+.spam-form input {
+  padding: 0;
+  width: 358px;
+  height: 50px;
+  background: var(--bcr-footer);
+  color: var(--primary-white-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  padding: 16px;
+}
+.spam-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+.spam-form::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  line-height: 1.25;
+  align-items: center;
+}
+.footer-btn {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: var(--btn-hov-foc-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: transparent;
+  color: var(--primary-white-color);
+  margin-left: 12px;
+  padding: 10px
+  cursor: pointer;
+}
+.spam-form .send-icon {
+  margin-left: 10px;
+}
+
+
 /* portfolio */
 
 .item-button {
@@ -850,91 +938,4 @@ body {
   background-color: var(--accent-color);
   background-origin: border-box;
   background-size: contain;
-}
-.send-form {
-  display: block;
-  width: 200px;
-  height: 50px;
-  background-color: var(--btn-hov-foc-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: transparent;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--primary-white-color);
-
-  padding: 10px 55px;
-  margin-right: auto;
-  margin-left: auto;
-
-  cursor: pointer;
-
-  transition: background-color 250 ms --timing-fuction;
-}
-.send-form:focus,
-.send-form:hover {
-  background-color: var(--btn-hover);
-}
-.footer-form label {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  color: var(--primary-white-color);
-}
-.spam-form input {
-  padding: 0;
-  width: 358px;
-  height: 50px;
-  background: var(--bcr-footer);
-  color: var(--primary-white-color);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  padding: 16px;
-}
-.spam-form {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  margin-top: 20px;
-}
-
-.spam-form::placeholder {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 16px;
-  line-height: 1.25;
-  align-items: center;
-}
-.footer-btn {
-  width: 200px;
-  height: 50px;
-  display: flex;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background: var(--btn-hov-foc-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: transparent;
-  color: var(--primary-white-color);
-  margin-left: 12px;
-  padding: 10px
-
-  cursor: pointer;
-}
-.spam-form .send-icon {
-  margin-left: 10px;
 }
